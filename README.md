@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 동영상 플랫폼
 
-## Getting Started
+## 마크업
 
-First, run the development server:
+피그마에서 들고 오는게 좋을 듯... 만들면 시간 걸림;;
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 사용 기술
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### HTTP 클라이언트 - 통신 모듈
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. [axios](https://www.npmjs.com/package/axios)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 데이터 상태 관리
 
-## Learn More
+1. [react-query](https://www.npmjs.com/package/@tanstack/react-query)
+2. [swr](https://www.npmjs.com/package/swr)
 
-To learn more about Next.js, take a look at the following resources:
+### 전역 상태 관리
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. [jotai](https://www.npmjs.com/package/jotai)
+2. [recoil](https://www.npmjs.com/package/recoil)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 유틸리티 - 배열, 객체, 함수 등 다양한 기능 편리하게 사용 가능
 
-## Deploy on Vercel
+1. [lodash](https://www.npmjs.com/package/lodash)
+2. [underscore](https://www.npmjs.com/package/underscore)
+3. [RxJS](https://www.npmjs.com/package/rxjs)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 동영상
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. [video.js](https://www.npmjs.com/package/video.js)
+
+### 스크롤링
+
+1. [react-infinite-scroll-component](https://www.npmjs.com/package/react-infinite-scroll-component)
+
+### 폼 태그
+
+1. [react-hook-form](https://www.npmjs.com/package/react-hook-form)
+
+### 검증 (validation)
+
+1. [zod](https://www.npmjs.com/package/zod)
+
+### aws-sdk
+
+1. [aws-sdk](https://www.npmjs.com/package/aws-sdk)
