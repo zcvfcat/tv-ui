@@ -45,3 +45,22 @@
 ### aws-sdk
 
 1. [aws-sdk](https://www.npmjs.com/package/aws-sdk)
+
+### git-hook
+
+in package.json
+
+"husky": "8.0.0"
+
+tsc 빌드 테스트
+코드 문법 체크 및 코드 서식화
+문서 파일 서식화
+
+"lint-staged": {
+    "**/*.ts?(x)": "bash -c tsc",
+    "src/**/*.{js,jsx,ts,tsx}": [
+        "eslint --fix",
+        "prettier --write"
+    ],
+    "**/*.{md,json}": "prettier --write"
+}
