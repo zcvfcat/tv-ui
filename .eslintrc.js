@@ -1,17 +1,3 @@
-// 의존성 모듈
-// "@typescript-eslint/eslint-plugin": "^5",
-// "@typescript-eslint/parser": "^5",
-// "eslint": "^8",
-// "eslint-config-airbnb": "^19",
-// "eslint-config-airbnb-typescript": "^17",
-// "eslint-config-next": "13",
-// "eslint-config-prettier": "^8",
-// "eslint-plugin-import": "^2",
-// "eslint-plugin-jsx": "^0",
-// "eslint-plugin-jsx-a11y": "^6",
-// "eslint-plugin-prettier": "^4",
-// "eslint-plugin-react": "^7",
-
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   parser: '@typescript-eslint/parser',
