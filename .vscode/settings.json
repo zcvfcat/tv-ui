@@ -1,5 +1,4 @@
 {
-  "cSpell.words": [
-    "tailwindcss"
-  ]
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "cSpell.words": ["tailwindcss"]
 }
